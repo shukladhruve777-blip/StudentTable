@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Add Student</h1>
+
+    <form method="POST">
+        <input type="text" class="search-box" name="first_name" placeholder="First Name" required>
+        <input type="text" class="search-box" name="last_name" placeholder="Last Name" required>
+        <input type="number" class="search-box" name="age" placeholder="Age" required>
+
+        <select name="program" class="search-box" required>
+            <option value="">-- Select program --</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Business">Business</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Others">Others</option>
+        </select>
+
+        <input type="month" class="search-box" name="start_date" required>
+        <input type="month" class="search-box" name="end_date" required>
+
+        <button type="submit" class="btn">Add</button>
+    </form>
+
+    <a href="/" class="btn back-btn">Back to home</a>
+
+</body>
+</html>
