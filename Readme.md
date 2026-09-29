@@ -1,57 +1,85 @@
-# Student Table
+# StudentTable
 
-A simple web-based student information table built with **HTML, CSS, JavaScript, and Flask**.
+A full-stack student management web application built with Flask, SQLite, HTML, CSS, and JavaScript.
 
 ## Features
 
-* Displays student information
-* Uses a database to store student data
-* Flask backend
-* HTML/CSS frontend
-* JavaScript functionality
+- Add student records
+- Remove student records
+- View student records
+- Search students by individual fields
+- Store data using SQLite
+- Dynamic table loading with JavaScript
+- Flask routes for backend operations
+- Responsive interface
 
-## Technologies
+## Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript
-* Python
-* Flask
-* SQLite
+- Python
+- Flask
+- SQLite
+- HTML5
+- CSS3
+- JavaScript
 
-## How to Run
+## How It Works
 
-### 1. Clone the repository
+```
+Browser
+   ↓
+HTML / CSS / JavaScript
+   ↓
+Flask
+   ↓
+SQLite Database
+```
+
+## Project Structure
+
+```
+StudentTable/
+├── app.py
+├── students.db
+├── templates/
+│   ├── index.html
+│   ├── add.html
+│   ├── remove.html
+│   └── view.html
+└── static/
+    ├── style.css
+    └── script.js
+```
+
+## Run Locally
 
 ```bash
 git clone https://github.com/shukladhruve777-blip/StudentTable.git
-```
-
-### 2. Open the project folder
-
-```bash
 cd StudentTable
-```
-
-### 3. Run the Flask application
-
-```bash
+pip install -r requirements.txt
 python app.py
 ```
 
-### 4. Open the application
+Then open:
 
-Open your browser and go to:
-
-```text
+```
 http://localhost:5000
 ```
 
-The SQLite database file (`students.db`) is created automatically when the application runs.
+## What I Practiced
+
+- Flask routing
+- SQLite database operations
+- CRUD-style functionality
+- HTML forms
+- JavaScript DOM manipulation
+- Fetch API
+- Dynamic table rendering
+- Client-side filtering
+- Organizing frontend and backend code
 
 ## Author
 
 **Dhruv Shukla**
 
-Information Systems Engineering – Analysis and Design
+Information Systems Engineering – Analysis and Design  
 Sheridan College
