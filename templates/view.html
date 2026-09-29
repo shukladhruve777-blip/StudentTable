@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <title>View Students</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="panel panel-wide">
+        <h1>View Students</h1>
+        <hr>
+
+        <div class="search-row">
+            <input type="text" class="search-box" id="search_first" placeholder="First Name">
+            <input type="text" class="search-box" id="search_last" placeholder="Last Name">
+            <input type="text" class="search-box" id="search_age" placeholder="Age">
+            <input type="text" class="search-box" id="search_program" placeholder="Program">
+            <input type="text" class="search-box" id="search_start" placeholder="Start Date">
+            <input type="text" class="search-box" id="search_end" placeholder="End Date">
+            <button onclick="searchTable()" class="btn">Search</button>
+        </div>
+
+        <div class="table-wrap">
+            <table id="table">
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Program</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+            </table>
+        </div>
+
+        <a href="/" class="btn btn-secondary">Back to home</a>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
