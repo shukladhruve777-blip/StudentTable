@@ -2,6 +2,8 @@
 
 A full-stack student management web application built with Flask, SQLite, HTML, CSS, and JavaScript.
 
+### 🚀 [Live Demo → student-management-mauve-six.vercel.app](https://student-management-mauve-six.vercel.app)
+
 ## Features
 
 - Add student records
