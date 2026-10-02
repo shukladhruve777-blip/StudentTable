@@ -47,15 +47,15 @@ The project combines a Flask backend, SQLite database, HTML/CSS templates, and J
 
 ### Student Management Dashboard
 
-![Student Management menu](screenshots/screen-1.png)
+![Student Management menu](screenshots/screen-1.jpeg)
 
 ### Add Student
 
-![Add student form](screenshots/screen-2.png)
+![Add student form](screenshots/screen-2.jpeg)
 
 ### View Students
 
-![Student table and search](screenshots/screen-3.png)
+![Student table and search](screenshots/screen-3.jpeg)
 
 ## 🔄 How It Works
 
