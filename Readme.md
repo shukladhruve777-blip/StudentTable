@@ -1,47 +1,99 @@
-# StudentTable
+# 🎓 Student Management
 
 A full-stack student management web application built with Flask, SQLite, HTML, CSS, and JavaScript.
 
-### 🚀 [Live Demo → student-management-mauve-six.vercel.app](https://student-management-mauve-six.vercel.app)
+<p align="center">
+  <a href="https://student-management-mauve-six.vercel.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo">
+  </a>
+  <a href="https://github.com/shukladhruve777-blip/Student_Management">
+    <img src="https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github" alt="Source Code">
+  </a>
+</p>
 
-## Features
+> **Try it in your browser:** [student-management-mauve-six.vercel.app](https://student-management-mauve-six.vercel.app)
 
-- Add student records
-- Remove student records
-- View student records
-- Search students by individual fields
-- Store data using SQLite
-- Dynamic table loading with JavaScript
-- Flask routes for backend operations
-- Responsive interface
+---
 
-## Tech Stack
+## ✨ Project Overview
 
-- Python
-- Flask
-- SQLite
-- HTML5
-- CSS3
-- JavaScript
+Student Management is a full-stack CRUD-style application for managing student records.
 
-## How It Works
+The project combines a Flask backend, SQLite database, HTML/CSS templates, and JavaScript-driven interactions to provide a simple workflow for adding, removing, viewing, and searching student information.
 
-```
+## 🎯 Key Features
+
+- ➕ Add student records
+- 🗑️ Remove student records
+- 📋 View stored students
+- 🔎 Search by individual fields
+- 💾 SQLite database storage
+- ⚡ Dynamic table loading with JavaScript
+- 🔗 Flask routes for backend operations
+- 📱 Responsive interface
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Backend programming |
+| **Flask** | Web framework and routing |
+| **SQLite** | Local relational database |
+| **HTML5** | Page structure |
+| **CSS3** | Styling and layout |
+| **JavaScript** | Dynamic UI, searching and table updates |
+
+## 🖥️ Screenshots
+
+### Student Management Dashboard
+
+![Student Management menu](screenshots/screen-1.png)
+
+### Add Student
+
+![Add student form](screenshots/screen-2.png)
+
+### View Students
+
+![Student table and search](screenshots/screen-3.png)
+
+## 🔄 How It Works
+
+```text
 Browser
-   ↓
+   │
+   ▼
 HTML / CSS / JavaScript
-   ↓
-Flask
-   ↓
+   │
+   ▼
+Flask Backend
+   │
+   ▼
 SQLite Database
 ```
 
-## Project Structure
+## 🧠 What I Practiced
 
-```
-StudentTable/
+This project gave me hands-on experience with:
+
+- Flask routing
+- SQLite database operations
+- CRUD-style functionality
+- HTML forms
+- JavaScript DOM manipulation
+- Fetch API
+- Dynamic table rendering
+- Client-side filtering
+- Separating frontend and backend responsibilities
+- Connecting a web interface to persistent data
+
+## 📁 Project Structure
+
+```text
+Student_Management/
 ├── app.py
 ├── students.db
+├── requirements.txt
 ├── templates/
 │   ├── index.html
 │   ├── add.html
@@ -52,36 +104,30 @@ StudentTable/
     └── script.js
 ```
 
-## Run Locally
+## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/shukladhruve777-blip/StudentTable.git
-cd StudentTable
+git clone https://github.com/shukladhruve777-blip/Student_Management.git
+cd Student_Management
 pip install -r requirements.txt
 python app.py
 ```
 
 Then open:
 
-```
+```text
 http://localhost:5000
 ```
 
-## What I Practiced
+## 📌 Project Status
 
-- Flask routing
-- SQLite database operations
-- CRUD-style functionality
-- HTML forms
-- JavaScript DOM manipulation
-- Fetch API
-- Dynamic table rendering
-- Client-side filtering
-- Organizing frontend and backend code
+The application provides the core student-record management workflow with a Flask backend, SQLite persistence, and a JavaScript-enhanced interface.
 
-## Author
+---
 
-**Dhruv Shukla**
+### 🔗 Links
 
-Information Systems Engineering – Analysis and Design  
-Sheridan College
+**Live Demo:** https://student-management-mauve-six.vercel.app  
+**GitHub Repository:** https://github.com/shukladhruve777-blip/Student_Management
+
+**Built with Python • Flask • SQLite • HTML • CSS • JavaScript**
